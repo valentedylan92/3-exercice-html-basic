@@ -3,24 +3,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=², initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/css.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/css.css">
+    <title>Vétérinaires sans frontières</title>
   </head>
   <body>
     <nav class="menu">
+      <img class="menu__logo" src="assets/logo.png" alt="Logo Vétérinaire sans frontières">
       <ul class="menu__container">
         <li class="menu__item"><a href="#home" class="menu__link">Home</a></li>
         <li class="menu__item"><a href="#about" class="menu__link">About</a></li>
         <li class="menu__item"><a href="#contact" class="menu__link">Contact</a></li>
       </ul>
     </nav>
-    <main>
-      <section class="container">
+    <main class="container">
         <section class="section__home" id="home">
-          <h1 class="section__homme__title"></h1>
-          <p class="section__home__quote"></p>
+          <div class="home__container">
+            <div class="home__inner">
+              <img src="assets/logo-home.png" alt="Logo Vétérinaire sans frontières">
+              <h1 class="home__title">Vétérinaires sans frontières</h1>
+              <p class="home__quote"> It was on my fifth birthday that Papa put his hand on my shoulder and said, <span class="home__quote--italic">"Remember, my son, if you ever need a helping hand, you'll find one at the end of your arm."</span> </p>
+              <a class="home__quoter" href="https://en.wikipedia.org/wiki/Sam_Levenson" target="_blank" rel="noreferrer" rel="noopener">Sam Levenson</a>
+            </div>
+          </div>
         </section>
+<!-- Section About  -->
         <section class="section__about" id="about">
           <div class="about__video">
             <!-- Iframe youtube -->
@@ -30,6 +38,7 @@
             <p class="about__text"></p>
           </div>
         </section>
+<!-- Section partner -->
         <section class="section__partner" id="partner">
             <div class="partner__container">
               <div class="partner"><img src="" alt=""><a href=""></a></div>
@@ -37,8 +46,7 @@
               <div class="partner"><img src="" alt=""><a href=""></a></div>
             </div>
         </section>
-        <footer id="contact"></footer>
-      </section>
     </main>
+    <footer id="contact"></footer>
   </body>
 </html>

@@ -179,3 +179,14 @@ MENU
 .about__links:hover{
   color:#700141;
 }
+
+/* ---------
+  PARTNERS
+--------- */
+
+
+.section__partner{
+  width: 100%;
+  background-color: #aa0062;
+  padding: 100px 0;
+}
